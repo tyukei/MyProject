@@ -1,0 +1,14 @@
+■ インストールモジュール
+・npm install
+  ⇒ package.jsonの内容をインストール
+・node_module/@typesにtypesフォルダ（index.d.ts）を格納
+
+■ tsをjsへビルドする（ubuntuの場合）
+ ・ インストール： npm install typescript
+ ・ コンパイル： npx tsc xxxx.ts
+ ・ 実行 node xxxx.js
+
+npx tsc ConvertJwksToPem.ts
+npx tsc DebugMessageLog.ts
+npx tsc JwtInspection.ts
+npx tsc Verify.ts

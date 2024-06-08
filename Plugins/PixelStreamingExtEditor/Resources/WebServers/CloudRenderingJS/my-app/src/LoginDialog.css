@@ -1,0 +1,118 @@
+
+content {
+  top: '50%';
+  left: '50%';
+  right: 'auto';
+  bottom: 'auto';
+  margin-right: '-50%';
+  transform: 'translate(-50%, -50%)'
+}
+
+overlay {
+  background: 'rgba(0, 0, 0, 0.2)'
+}
+
+.Modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  display: block;
+  padding: 2em;
+  width: 100%;
+  max-width: 70%;
+  background-color: #fff;
+  border-radius: 1em;
+  transform: translate(-50%, -50%);
+  outline: transparent;
+  z-index: 102;
+}
+
+.Overlay {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 101;
+  background-color: rgba(0,0,0,.4);
+}
+
+h1 {
+  color: #000;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 24px;
+}
+
+.login-dialog-container {
+  padding: 4px;
+}
+
+.login-dialog-label {
+  font-size: small;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+.login-dialog-textbox {
+  position: relative;
+  display: block;
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 16px;
+  color: #000;
+  outline: none;
+  border: 1px solid black;
+}
+
+.login-dialog-btn {
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+.login-dialog-select {
+  width: 100%;
+  margin-top: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border: 1px solid black;
+}
+
+.login-dialog-table {
+  width: 100%;
+}
+
+.login-dialog-warning {
+  color: #f00;
+}
+
+.login-dialog-metacommid-label {
+  display: flex;
+  gap: 8px;
+}
+
+.login-dialog-metacommid-label > * {
+  display: block;
+  flex: 1;
+}
+
+.metacommid-btn {
+  text-align: center;
+  background-color: lightgray;
+  padding: 2px 4px;
+  border: 1px solid black;
+  border-radius: 4px;
+  font-size: small;
+  cursor: pointer;
+}
+
+.metacommid-btn-load {
+  flex: 4;
+  background-color: darkgray;
+}

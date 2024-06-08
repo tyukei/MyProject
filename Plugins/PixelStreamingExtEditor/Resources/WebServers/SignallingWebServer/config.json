@@ -1,0 +1,13 @@
+{
+	"UseHTTPS": false,
+	"LogToFile": true,
+	"LogVerbose": true,
+	"EnableJWT": false,
+	"PublicIp": "localhost",
+	"HttpPort": 80,
+	"HttpsPort": 443,
+	"StreamerPort": 8888,
+	"SFUPort": 8889,
+	"KeepAlive": 30000,
+	"maxPlayerControllers": 50
+}

@@ -1,0 +1,10 @@
+
+.vstick {
+  display: inline-block;
+  position: relative;
+  width: fit-content;
+}
+
+.vstick .vstick-img {
+  position: absolute;
+}

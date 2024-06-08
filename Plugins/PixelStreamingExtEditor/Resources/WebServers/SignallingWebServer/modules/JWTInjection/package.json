@@ -1,0 +1,14 @@
+{
+	"private": true,
+	"dependencies": {
+		"jsonwebtoken": "^8.5.1",
+		"jwk-to-pem": "^2.0.5",
+		"request": "^2.88.2",
+		"types-registry": "^0.1.611"
+	},
+	"devDependencies": {
+		"@types/jsonwebtoken": "^8.5.9",
+		"@types/jwk-to-pem": "^2.0.1",
+		"@types/pem-jwk": "^2.0.0"
+	}
+}
